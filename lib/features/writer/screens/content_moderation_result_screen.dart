@@ -1,4 +1,4 @@
-import 'package:mythica/features/writer/widgets/content_moderation_service.dart' show ModerationResult, ModerationStatus;
+import 'package:mythica/features/writer/services/content_moderation_service.dart' show ModerationResult, ModerationStatus;
 import 'package:flutter/material.dart';
 
 class ContentModerationResultScreen extends StatelessWidget {

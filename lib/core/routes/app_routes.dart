@@ -51,6 +51,8 @@ import 'package:mythica/features/writer/screens/writer_analytics_screen.dart';
 import 'package:mythica/features/writer/screens/writer_profile_screen.dart';
 import 'package:mythica/features/writer/screens/writer_publish_page.dart';
 import 'package:mythica/features/writer/screens/writer_subscription_screen.dart';
+import 'package:mythica/features/reader/data/dummy_reader_data.dart';
+import 'package:mythica/features/library/models/library_book.dart';
 import '../../features/subscription/reader_subscription_screen.dart';
 
 class AppRoutes {
@@ -95,6 +97,7 @@ class AppRoutes {
   static const favoritesDashboard = '/favoritesDashboard';
 
   static const writerDashboard = '/writerDashboard';
+  static const notifications = '/notifications';
   static const earn = '/earn';
 
   static const categoryDashboard = '/categoryDashboard';
@@ -166,6 +169,7 @@ class AppRoutes {
     helpSupportDashboard: (_) => const HelpSupportScreen(),
     language: (_) => const LanguageSelectionScreen(),
     settings: (_) => const SettingsScreen(),
+    notifications: (_) => const Scaffold(body: Center(child: Text('Notifications'))),
     storyAnalytics: (_) => const StoryAnalyticsScreen(),
 
     library: (_) => const MyLibraryScreen(),

@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:mythica/core/routes/app_routes.dart';
-import 'package:mythica/features/home/mainicon/help_icon/help_support.dart';
+import 'package:mythica/features/profile/screens/help_support_screen.dart';
 import 'package:mythica/features/library/screens/my_library_screen.dart';
 
 import 'edit_profile_screen.dart';
 import 'subscription_screen.dart';
 
-import 'widgets/profile_header.dart';
-import 'widgets/profile_menu.dart';
-import 'widgets/profile_stats.dart';
+import '../widgets/profile_header.dart';
+import '../widgets/profile_menu.dart';
+import '../widgets/profile_stats.dart';
 
 
 class ProfileScreen extends StatelessWidget {

@@ -3,20 +3,20 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 // SERVICES
-import '../../core/services/auth_service.dart';
-import '../../core/services/role_service.dart';
+import 'package:mythica/services/auth_service.dart';
+import 'package:mythica/services/role_service.dart';
 
 // ROUTES
-import '../../core/routes/app_routes.dart';
+import 'package:mythica/core/routes/app_routes.dart';
 
 // PROVIDERS
-import '../../features/notifications/provider/notification_provider.dart';
+import 'package:mythica/providers/notification_provider.dart';
 
 // WIDGETS
 import '../widgets/home_app_bar.dart';
 import '../widgets/app_drawer.dart';
-import '../widgets/bottom_nav.dart';
-import '../widgets/home_search_bar.dart';
+import 'package:mythica/navigation/bottom_nav.dart';
+import 'package:mythica/features/home/widgets/search_bar.dart';
 import '../widgets/banner_slider.dart';
 import '../widgets/services_section.dart';
 import '../widgets/section_title.dart';
@@ -24,14 +24,14 @@ import '../widgets/banner_card.dart';
 import '../widgets/sweet_banner.dart';
 
 // SCREENS
-import '../../features/library/screens/my_library_screen.dart';
+import 'package:mythica/features/library/screens/my_library_screen.dart';
 
 // DATA
-import '../data/home_services.dart';
+import 'package:mythica/features/home/widgets/home_services.dart';
 
 // BOOK SECTIONS
-import '../../features/home/widgets/featured_books.dart';
-import '../../features/home/widgets/recommended_books.dart';
+import 'package:mythica/features/home/widgets/featured_books.dart';
+import 'package:mythica/features/home/widgets/recommended_books.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});

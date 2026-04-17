@@ -1,7 +1,7 @@
 import 'dart:ui';
 import 'package:mythica/features/auth/provider/auth_provider.dart';
 import 'package:mythica/core/routes/app_routes.dart';
-import 'package:mythica/features/book/screen/book_detail_screen.dart';
+import 'package:mythica/features/book/screens/book_detail_screen.dart';
 import 'package:mythica/features/writer/provider/writer_provider.dart';
 import 'package:mythica/shared/widgets/app_popup.dart';
 import 'package:flutter/material.dart';

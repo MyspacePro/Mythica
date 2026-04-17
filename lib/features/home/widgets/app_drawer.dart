@@ -3,9 +3,9 @@ import 'package:mythica/features/home/mainicon/setting_icon/settings_screen.dart
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 
-import 'package:mythica/features/profile/profile_screen.dart' show ProfileScreen;
+import 'package:mythica/features/profile/screens/profile_screen.dart' show ProfileScreen;
 import 'package:mythica/features/subscription/reader_subscription_screen.dart' show ReaderSubscriptionScreen;
-import 'package:mythica/features/profile/edit_profile_screen.dart';
+import 'package:mythica/features/profile/screens/edit_profile_screen.dart';
 import 'package:mythica/features/library/screens/my_library_screen.dart';
 import 'package:mythica/core/routes/app_routes.dart';
 

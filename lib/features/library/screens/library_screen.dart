@@ -1,7 +1,7 @@
-import 'package:mythica/features/book/screen/booklist.dart';
+import 'package:mythica/features/book/screens/booklist.dart';
 import 'package:mythica/features/library/models/library_book.dart';
 import 'package:flutter/material.dart';
-import 'widgets/library_books_grid.dart';
+import '../widgets/library_books_grid.dart';
 import 'package:mythica/core/routes/app_routes.dart';
 
 class LibraryScreen extends StatelessWidget {
