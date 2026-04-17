@@ -1,6 +1,6 @@
 import 'package:mythica/config/app_config.dart';
 import 'package:mythica/data/dummy_books.dart';
-import 'package:mythica/features/writer/widgets/content_moderation_service.dart';
+import 'package:mythica/features/writer/services/content_moderation_service.dart';
 import 'package:mythica/models/user_model.dart';
 import 'package:mythica/models/writer_book_model.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';

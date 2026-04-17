@@ -27,14 +27,14 @@ import 'package:mythica/features/reader/merge/reader_studio_provider.dart';
 import 'package:mythica/features/writer/provider/writer_provider.dart';
 import 'package:mythica/features/writer/provider/story_analytics_provider.dart';
 
-import 'package:mythica/features/discover/provider/discover_provider.dart';
+import 'package:mythica/features/book/provider/discover_provider.dart';
 import 'package:mythica/features/book/provider/book_provider.dart';
 
-import 'package:mythica/features/library/provider/library_store.dart';
+import 'package:mythica/features/library/models/library_store.dart';
 
-import 'package:mythica/features/premium/premium_controller.dart';
-import 'package:mythica/features/premium/premium_repository.dart';
-import 'package:mythica/features/premium/premium_remote_service.dart';
+import 'package:mythica/features/home/mainicon/premium_icon/services/premium_controller.dart';
+import 'package:mythica/features/home/mainicon/premium_icon/services/premium_repository.dart';
+import 'package:mythica/features/home/mainicon/premium_icon/services/premium_remote_service.dart';
 
 final GlobalKey<NavigatorState> navigatorKey = GlobalKey<NavigatorState>();
 

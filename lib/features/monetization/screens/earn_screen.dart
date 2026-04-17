@@ -1,4 +1,4 @@
-import 'package:mythica/features/home/mainicon/earn_as_icon/provider/earn_provider.dart';
+import 'package:mythica/features/monetization/provider/earn_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:mythica/core/theme/app_colors.dart';

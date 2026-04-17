@@ -1,4 +1,4 @@
-import 'package:mythica/features/book/screen/book_detail_screen.dart';
+import 'package:mythica/features/book/screens/book_detail_screen.dart';
 import 'package:mythica/features/book/provider/book_provider.dart';
 import 'package:mythica/features/book/widgets/book_card.dart';
 import 'package:flutter/material.dart';

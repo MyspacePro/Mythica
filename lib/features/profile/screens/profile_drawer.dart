@@ -1,6 +1,6 @@
 import 'package:mythica/core/routes/app_routes.dart';
-import 'package:mythica/features/home/mainicon/favorites_icon/favorites_dashboard.dart';
-import 'package:mythica/features/home/mainicon/offline_icon/offline_vault.dart';
+import 'package:mythica/features/library/screens/favorites_screen.dart';
+import 'package:mythica/features/library/screens/offline_vault_screen.dart';
 import 'package:flutter/material.dart';
 
 class ProfileDrawer extends StatelessWidget {

@@ -2,7 +2,7 @@ import 'package:mythica/features/admin/admin_dashboard.dart';
 import 'package:mythica/features/auth/screens/genre_selection_screen.dart';
 import 'package:mythica/features/auth/screens/login_screen.dart';
 import 'package:mythica/features/auth/screens/splash_screen.dart';
-import 'package:mythica/features/home/home_screen.dart';
+import 'package:mythica/features/home/screens/home_screen.dart';
 import 'package:mythica/services/auth_service.dart';
 import 'package:mythica/services/role_service.dart';
 import 'package:firebase_auth/firebase_auth.dart';

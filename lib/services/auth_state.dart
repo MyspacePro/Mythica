@@ -1,4 +1,4 @@
-import '../../models/user_model.dart';
+import 'package:mythica/models/user_model.dart';
 
 class AuthState {
   final AppUser? user;

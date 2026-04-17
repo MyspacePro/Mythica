@@ -1,5 +1,5 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:mythica/models/writer_book_model.dart';
+import 'package:mythica/shared/models/writer_book_model.dart';
 
 class BookModel {
   final String id;

@@ -1,7 +1,7 @@
-import 'package:mythica/features/book/screen/book_detail_screen.dart';
+import 'package:mythica/features/book/screens/book_detail_screen.dart';
 import 'package:mythica/features/services/Favoritebookcard.dart' show FavoriteBookCard;
 import 'package:mythica/features/book/model/book_model.dart';
-import 'package:mythica/features/home/mainicon/favorites_icon/provider/favorites_provider.dart';
+import 'package:mythica/features/library/provider/favorites_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -265,7 +265,7 @@ class _FavoritesDashboardState extends State<FavoritesDashboard> {
                                     context,
                                     MaterialPageRoute(
                                       builder: (_) =>
-                                          BookDetailScreen(book: book.toWriterBook()),
+                                          BookDetailScreen(bookId: book.id),
                                     ),
                                   );
                                 },

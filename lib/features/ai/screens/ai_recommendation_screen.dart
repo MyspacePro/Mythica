@@ -1,8 +1,8 @@
 import 'dart:io';
 
-import 'package:book_app/features/book/screens/book_battle_screen.dart';
-import 'package:book_app/features/book/screens/book_detail_screen.dart';
-import 'package:book_app/shared/models/user_model.dart';
+import 'package:mythica/features/book/screens/book_battle_screen.dart';
+import 'package:mythica/features/book/screens/book_detail_screen.dart';
+import 'package:mythica/models/user_model.dart';
 import 'package:flutter/material.dart';
 
 class AIRecommendationScreen extends StatelessWidget {

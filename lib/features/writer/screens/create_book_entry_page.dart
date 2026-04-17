@@ -1,5 +1,5 @@
 import 'dart:async';
-import 'package:mythica/features/writer/widgets/content_moderation_service.dart' show ModerationStatus, ContentModerationService;
+import 'package:mythica/features/writer/services/content_moderation_service.dart' show ModerationStatus, ContentModerationService;
 import 'package:flutter/material.dart';
 import 'package:mythica/core/routes/app_routes.dart';
 

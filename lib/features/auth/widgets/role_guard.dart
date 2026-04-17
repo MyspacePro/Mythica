@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 import 'package:mythica/config/app_config.dart';
-import 'package:mythica/features/home/home_screen.dart';
+import 'package:mythica/features/home/screens/home_screen.dart';
 import 'package:mythica/models/user_model.dart';
 import 'package:mythica/features/auth/provider/auth_provider.dart';
 import 'package:mythica/services/role_service.dart';
